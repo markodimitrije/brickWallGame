@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "HammerBtnTapManaging&lt;A&gt;.isHammerAvailable():CT_Protocols_2.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "tm.now.timeIntervalSince(claimedAt) &gt; tm.timeToWaitOnHammer">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "BW_GameOver.btnTapped(_:):BW_GameOver.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "delegate">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "BB_BricksBarView.getBuyTotemComponents(totem:coinType:):BB_BricksBarView.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "tapsWorthForCoinType[coinType]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "BrickWallVC.viewDidDisappear(_:):BrickWallVC.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "timer">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "BrickWallVC.loadBricksBarView(totem:):BrickWallVC.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "bwBarView.subviews.first">
+            </PersistentString>
+            <PersistentString
+               value = "bwBarView.subviews.count">
+            </PersistentString>
+            <PersistentString
+               value = "totem.getScore()">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "BrickWallVC.updateClock():BrickWallVC.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "now.timeIntervalSince(lastTimeHammerClaimedAt)">
+            </PersistentString>
+            <PersistentString
+               value = "tm.timeToWaitOnHammer">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "TimerManager.getTimerValue():Stopwatch.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "delegate">
+            </PersistentString>
+            <PersistentString
+               value = "delegate?.isHammerActive()">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "BW_BrickView.btnTapped(_:):BW_BrickView.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "cellId">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "BrickTapResponsing&lt;A&gt;.brickTappedAt(cellId:):CT_Protocols_1.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "brickView.isHidden">
+            </PersistentString>
+            <PersistentString
+               value = "cell.p">
+            </PersistentString>
+            <PersistentString
+               value = "cell.o">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "TimerManager.isUserUsingHammer():Stopwatch.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "now.timeIntervalSince(claimedAt)">
+            </PersistentString>
+            <PersistentString
+               value = "timePassed &lt; timeToUseHammer">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

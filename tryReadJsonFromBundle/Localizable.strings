@@ -1,0 +1,13 @@
+/* 
+  CT_Localize.strings
+  tryReadJsonFromBundle
+
+  Created by Marko Dimitrijevic on 12/03/2018.
+  Copyright © 2018 Marko Dimitrijevic. All rights reserved.
+*/
+
+Strings.CT.BricksBar.BuyFor.staticTxt = "BUY FOR";
+Strings.CT.BricksBar.useHammer = "USE HAMMER";
+
+Strings.CT.BricksView.gameOver.title = "SUCCESS";
+Strings.CT.BricksView.gameOver.msg = "Congratulations! You earned this sticker";

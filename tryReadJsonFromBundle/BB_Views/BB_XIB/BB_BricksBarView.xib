@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="BB_BricksBarView" customModule="tryReadJsonFromBundle" customModuleProvider="target">
+            <connections>
+                <outlet property="buyTotemView" destination="aLJ-ug-izq" id="dm4-Iu-frm"/>
+                <outlet property="hammerView" destination="Ndn-Iw-vxQ" id="Ikq-xJ-tOX"/>
+                <outlet property="stackTopToSafeAreaTopCnstr" destination="1fz-4o-lXT" id="L30-O5-HPX"/>
+                <outlet property="tnameScoreView" destination="ygr-rV-tyT" id="dxZ-ac-y9x"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="56"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="RJ7-Ju-heO">
+                    <rect key="frame" x="16" y="0.0" width="343" height="56"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ygr-rV-tyT" userLabel="tnameScoreView" customClass="BB_TNameScoreView" customModule="tryReadJsonFromBundle" customModuleProvider="target">
+                            <rect key="frame" x="0.0" y="0.0" width="93" height="56"/>
+                            <color key="backgroundColor" red="1" green="1" blue="0.1229112413" alpha="1" colorSpace="calibratedRGB"/>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aLJ-ug-izq" userLabel="buyTotemView" customClass="BB_BuyTotemView" customModule="tryReadJsonFromBundle" customModuleProvider="target">
+                            <rect key="frame" x="109" y="0.0" width="103" height="56"/>
+                            <color key="backgroundColor" red="0.0" green="0.79215686269999996" blue="0.2901960784" alpha="1" colorSpace="calibratedRGB"/>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ndn-Iw-vxQ" userLabel="hammerView" customClass="BB_HammerView" customModule="tryReadJsonFromBundle" customModuleProvider="target">
+                            <rect key="frame" x="228" y="0.0" width="115" height="56"/>
+                            <color key="backgroundColor" red="0.87784830729999996" green="1" blue="0.60875108509999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </view>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="aLJ-ug-izq" firstAttribute="width" secondItem="Ndn-Iw-vxQ" secondAttribute="width" multiplier="0.9" id="Dhf-lW-uMc"/>
+                        <constraint firstItem="ygr-rV-tyT" firstAttribute="width" secondItem="aLJ-ug-izq" secondAttribute="width" multiplier="0.9" id="rRc-s9-NzD"/>
+                    </constraints>
+                </stackView>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="RJ7-Ju-heO" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="1fz-4o-lXT"/>
+                <constraint firstItem="RJ7-Ju-heO" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="16" id="MXP-S5-1PY"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="RJ7-Ju-heO" secondAttribute="trailing" constant="16" id="bnW-Ym-NDe"/>
+                <constraint firstItem="RJ7-Ju-heO" firstAttribute="bottom" secondItem="vUN-kp-3ea" secondAttribute="bottom" id="qNz-Og-6B0"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="35.5" y="142"/>
+        </view>
+    </objects>
+</document>

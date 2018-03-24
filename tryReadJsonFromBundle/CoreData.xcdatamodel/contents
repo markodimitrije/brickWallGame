@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="13772" systemVersion="17D102" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="CD_CT_Cell" representedClassName=".CD_CT_Cell" syncable="YES">
+        <attribute name="b" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="cId" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="o" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="p" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="t" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="txt" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="w" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <relationship name="row" maxCount="1" deletionRule="Nullify" destinationEntity="CD_CT_Row" inverseName="cells" inverseEntity="CD_CT_Row" syncable="YES"/>
+    </entity>
+    <entity name="CD_CT_Row" representedClassName=".CD_CT_Row" syncable="YES">
+        <attribute name="numOfElements" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="rowId" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <relationship name="cells" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="CD_CT_Cell" inverseName="row" inverseEntity="CD_CT_Cell" syncable="YES"/>
+        <relationship name="sticker" maxCount="1" deletionRule="Nullify" destinationEntity="CD_CT_Sticker" inverseName="rows" inverseEntity="CD_CT_Sticker" syncable="YES"/>
+    </entity>
+    <entity name="CD_CT_Sticker" representedClassName=".CD_CT_Sticker" syncable="YES">
+        <attribute name="claimed" optional="YES" attributeType="Boolean" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="count4Cripto" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="numOfRows" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="sid" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="sort" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="ver" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <relationship name="rows" toMany="YES" deletionRule="Nullify" destinationEntity="CD_CT_Row" inverseName="sticker" inverseEntity="CD_CT_Row" syncable="YES"/>
+        <relationship name="totem" maxCount="1" deletionRule="Nullify" destinationEntity="CDCrackTotem" inverseName="stickers" inverseEntity="CDCrackTotem" syncable="YES"/>
+    </entity>
+    <entity name="CDCrackTotem" representedClassName=".CDCrackTotem" syncable="YES">
+        <attribute name="createdAt" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="numOfStk" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="tmplId" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="updatedAt" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="userId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="val" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="version" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <relationship name="stickers" toMany="YES" deletionRule="Nullify" destinationEntity="CD_CT_Sticker" inverseName="totem" inverseEntity="CD_CT_Sticker" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="CD_CT_Cell" positionX="450" positionY="369" width="128" height="165"/>
+        <element name="CD_CT_Row" positionX="268" positionY="369" width="128" height="105"/>
+        <element name="CD_CT_Sticker" positionX="97" positionY="366" width="128" height="180"/>
+        <element name="CDCrackTotem" positionX="-99" positionY="368" width="128" height="165"/>
+    </elements>
+</model>
