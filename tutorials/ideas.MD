@@ -1,0 +1,5 @@
+ideas
+
+git
+design patterns
+
