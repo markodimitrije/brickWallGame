@@ -201,8 +201,6 @@ extension CrackTotemSaveStateManaging where Self: BrickWallVC {
     
     private func saveStateImidiatelly() {
         
-//        print("CrackTotemSaveStateManaging.BrickWallVC: saveStateImidiatelly is called")
-        
         let bgc = appDel.persistentContainer.newBackgroundContext()
         
         bgc.performAndWait {
@@ -226,7 +224,7 @@ extension CrackTotemSaveStateManaging where Self: BrickWallVC {
     
     
     func userQuitGame() {
-//        print("CrackTotemSaveStateManaging.userQuitGame: is CALLED")
+        
         saveStateImidiatelly()
         
         self.gameIsBecomingInactive() // ima preko protocol_2 -> javi web-u
@@ -243,8 +241,6 @@ extension CrackTotemSaveStateManaging where Self: BrickWallVC {
         
         guard let totalScore = totem?.getScore() else { return }
         
-//        print("modelStateIsChanged.getScore = \(totalScore)")
-        
         if totalScore % CT_SAVE_STATE_EVERY_IN_TAPS == 0 {
 //            print(" % 100 je ispunjen, zovi SAVE U CORE DATA")
             saveStateImidiatelly()
@@ -253,9 +249,6 @@ extension CrackTotemSaveStateManaging where Self: BrickWallVC {
     }
     
 }
-
-
-
 
 
 

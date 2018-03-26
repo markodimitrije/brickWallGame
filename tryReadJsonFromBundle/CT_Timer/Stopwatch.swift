@@ -134,8 +134,7 @@ class TimerManager {
                 return v
             }
         }
-        //return counter < 0 ? CT_USE_HAMMER : "\(counter)"
-//        return counter < 0 ? CT_USE_HAMMER : res
+        
         let v = counter < 0 ? CT_USE_HAMMER : res
         
         return v

@@ -32,7 +32,6 @@ public class CD_CT_Sticker: NSManagedObject {
             
         }
         
-//        print("getRowsFor.cdRows.count = \(cdRows.count)")
         return cdRows
         
     }
@@ -76,17 +75,6 @@ public class CD_CT_Sticker: NSManagedObject {
         return rows.sorted(by: {$0.rowId < $1.rowId})
         
     }
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
     
     
 }

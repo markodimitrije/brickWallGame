@@ -57,34 +57,6 @@ public class CDCrackTotem: NSManagedObject, Encodable {
     }
     
     
-    
-    // vrati mu sve objekte tipa CD_CT_Sticker koje imas u CoreData zapakovane u NSSet
-    
-//    func getAllCrackTotemStickers() -> NSSet? {
-//
-//        let freq: NSFetchRequest<CDCrackTotem> = CDCrackTotem.fetchRequest()
-//        var res: CDCrackTotem?
-//        do {
-//            let results = try context.fetch(freq)
-//            res = results.first
-//        } catch {
-//            print("getAllCrackTotemStickers.catch, cant fetch...")
-//        }
-//
-//        print("getAllCrackTotemStickers.res?.stickers.count = \(String(describing: res?.stickers.count))")
-//
-//        return res?.stickers
-//
-//    }
-    
-    
-    
-    
-    
-    
-    
-    
-    
     func createAllTotemStickersFor(cts: CrackTotemStructure, ctx: NSManagedObjectContext) -> Set<CD_CT_Sticker> {
         
         var cdTotemStickers = Set<CD_CT_Sticker>()
@@ -131,7 +103,6 @@ public class CDCrackTotem: NSManagedObject, Encodable {
             return Totem(sid: sid, name: name ?? "", o: earned, t: required, claimed: claimed, sort: sort)
         }
 
-//        print("getAllTotemStickersInfo.vracam: infos = \(infos)")
         return infos
         
     }
@@ -233,20 +204,5 @@ public class CDCrackTotem: NSManagedObject, Encodable {
         return earned
         
     }
-    
-    
-    
-//    private func updateRecordOwnProperties(record: CD_CT_Sticker, sticker: CrackTotemSticker) {
-//
-//        record.name = sticker.name
-//        record.sid = NSNumber.init(value: sticker.sid)
-//        record.numOfRows = NSNumber.init(value: sticker.numOfRows)
-//        record.sort = NSNumber.init(value: sticker.sort)
-//        record.ver = NSNumber.init(value: sticker.ver)
-//
-//        record.claimed = sticker.claimed
-//        record.count4Cripto = NSNumber.init(value: sticker.count4Cripto)
-//
-//    }
-    
+
 }

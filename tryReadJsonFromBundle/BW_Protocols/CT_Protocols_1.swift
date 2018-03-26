@@ -40,7 +40,6 @@ extension BrickWallVC: BrickWallManaging {
     
     private func loadTotemFromJsonInBundle() {
         
-//        guard let filePath = Bundle.main.path(forResource: "totem", ofType: "json"),
         guard let filePath = Bundle.main.path(forResource: "totemTemp", ofType: "json"),
             let data = NSData(contentsOfFile: filePath) else {
                 print("error. nemam resource")
@@ -66,7 +65,6 @@ extension BrickWallVC: BrickWallManaging {
         
         do {
             cdTotem = try context.fetch(req).first
-//            print("fetched cdTotem = \(String(describing: cdTotem))")
         } catch {
             print("err, ne mogu da fetch from core data model")
         }
@@ -74,8 +72,6 @@ extension BrickWallVC: BrickWallManaging {
         guard let cts = cdTotem?.getCrackTotemSticker(sid: sid, ctx: context) else {
             print("loadTotemFromCoreData.err: nemam fetch iz CD modela"); return
         }
-        
-//        print("loadTotemFromCoreData. imam totem koji sam trazio. OK OK")
         
         totem = cts
         
@@ -100,8 +96,6 @@ extension BrickWallVC: BrickWallManaging {
         
         guard let sid = sid else { return }
         
-        //loadTotemFromJsonInBundle() // ovo radi
-        
         loadTotemFromCoreData(sid: sid) // ali treba mi ovakav model
         
     }
@@ -120,7 +114,6 @@ extension BrickWallVC: BrickWallManaging {
     
     func recreateBrickRow(row: Row, totem: CrackTotemSticker) { // probaj sa Internal
         
-//        for (index, cell) in row.cells.enumerated() {
         for cell in row.cells {
         
             let bi = SingleBrickInfo.init(numOfRows: totem.numOfRows, row: row, cell: cell)
@@ -129,16 +122,7 @@ extension BrickWallVC: BrickWallManaging {
                 return
             }
             
-            //v.alpha = 0
             self.bricksWallView?.addSubview(v)
-            
-                //                print("recreateBrickRow. IMAM VIEW! frame = \(v.frame)")
-
-//            UIView.animate(withDuration: 1.0, delay: Double(index), options: [], animations: {
-//
-//                v.alpha = 1.0
-//
-//            }, completion: nil)
             
         }
         
@@ -275,15 +259,6 @@ extension SingleBrickPresenting where Self: BrickWallVC {
 }
 
 
-
-
-
-
-
-
-
-
-
 //getTapValue(hammerActive: hammerActive)
 
 protocol BrickTapResponsing: class {
@@ -318,7 +293,6 @@ extension BrickTapResponsing where Self: BrickWallVC {
     
     func getCounterText() -> String {
         
-//        let txt = isHammerActive() ? CT_USE_HAMMER : "COUNT ME"
         let txt = tm.getCounterValue() ?? ""
         return txt
     }
@@ -365,17 +339,13 @@ extension BrickTapResponsing where Self: BrickWallVC {
         
         let crackIndex = getCrackIndex(o: cell.o, p: cell.p)
         
-//        print("crackIndex = \(String(describing: crackIndex))")
-        
         let img = getImageFor(brickPattern: .i, index: crackIndex)
-        
-//        brickView.updateCrackImage(img: img)
         
         brickView.updateBrick(otk: cell.o, total: cell.p, img: img)
         
         bwBarView.updateBricksBarView(totem: totem)
         
-        makeIphoneVibrate()
+        //makeIphoneVibrate() probati za > iphone 7
         
         modelStateIsChanged()
         

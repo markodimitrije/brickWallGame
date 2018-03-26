@@ -34,15 +34,11 @@ public class CD_CT_Row: NSManagedObject {
             cdCells.insert(cdCell) // nema append nego insert
             
         }
-//        print("getCellsFor.cdCells.count = \(cdCells.count)")
         return cdCells
         
     }
     
     func getCellsFor(rowId: Int, sid: Int, ctx: NSManagedObjectContext) -> [Cell] {
-        
-//        let fReq: NSFetchRequest<CD_CT_Row> = CD_CT_Row.fetchRequest()
-//        fReq.predicate = NSPredicate.init(format: "%K==%i", "rowId", rowId)
 
         let fReq: NSFetchRequest<CD_CT_Row> = CD_CT_Row.fetchRequest()
         fReq.predicate = NSPredicate.init(format: "%K==%i && %K==%i", "rowId", rowId, "sticker.sid", sid)

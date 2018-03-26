@@ -11,8 +11,4 @@ import UIKit
 import CoreData
 
 
-public class CD_CT_Cell: NSManagedObject {
-
-    
-    
-}
+public class CD_CT_Cell: NSManagedObject {}

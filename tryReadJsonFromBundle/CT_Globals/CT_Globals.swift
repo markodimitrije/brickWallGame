@@ -19,19 +19,13 @@ func secondsToHoursMinutesSeconds (seconds : Int) -> (Int, Int, Int) {
     return (seconds / 3600, (seconds % 3600) / 60, (seconds % 3600) % 60)
 }
 
-func makeIphoneVibrate() {
-    
-    //AudioServicesPlayAlertSound(SystemSoundID(kSystemSoundID_Vibrate))
-//    AudioServicesPlaySystemSound(1519)
-    //AudioServicesPlaySystemSound(SystemSoundID(kSystemSoundID_Vibrate))
-    //AudioServicesPlaySystemSoundWithCompletion
-//    let s = SystemSoundID(kSystemSoundID_Vibrate)
-  //  AudioServicesPlayAlertSound(<#T##inSystemSoundID: SystemSoundID##SystemSoundID#>)
+/* 
+func makeIphoneVibrate() { //probati za > iphone 7
     
     let generator = UIImpactFeedbackGenerator(style: .heavy)
     generator.prepare()
     generator.impactOccurred()
 
 }
-
+*/
 

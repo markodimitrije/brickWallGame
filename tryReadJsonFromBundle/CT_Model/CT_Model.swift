@@ -83,32 +83,19 @@ struct CrackTotemSticker: Codable {
             print("err. line. let rowInd = selectedRowIndex.first?.rowId ")
             return nil
         }
-
-//        print("selected rowInd = \(rowInd)")
         
-        // nadji selectedCell
-        
-//        print("rows = \(rows.map {$0.rowId})")
-        
-        let cellIds = rows[rowInd].cells.map {$0.cId}
-        
-//        print("updateCell.cellIds = \(cellIds)")
-//        print("updateCell.cellId = \(String(describing: cellId))")
+        let cellIds = rows[rowInd].cells.map {$0.cId} // nadji selectedCell
         
         guard let index = cellIds.index(of: cid) else {
             print("err. line. let index = cellIds.index(of: \(cid) ")
             return nil
         }
         
-//        print("update-ujem data, sa : \(rows[rowInd].cells[index].o)")
-        
         // update-uj nove otkucaje, ali tako da ne premase MAX, a to je .p:
         
         let toAcomplish = rows[rowInd].cells[index].p - rows[rowInd].cells[index].o
         
         rows[rowInd].cells[index].o += min(toAcomplish, newTaps)
-        
-//        print("na : \(rows[rowInd].cells[index].o)")
         
         return rows[rowInd].cells[index]
         
@@ -165,7 +152,6 @@ struct CrackTotemSticker: Codable {
         var data: Data?
         do {
             data = try JSONEncoder().encode(self)
-//            print("jsonRepresentation.data = \(String(describing: data))")
         } catch {
             print("jsonRepresentation.catch: Encoding is failed")
         }
@@ -179,7 +165,6 @@ struct CrackTotemSticker: Codable {
             print("jsonRepresentation.catch: JSONSerialization is failed")
         }
         
-//        print("jsonRepresentation.jsonDict = \(jsonDict)")
         return jsonDict
     }
     
