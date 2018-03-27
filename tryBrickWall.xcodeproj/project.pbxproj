@@ -37,7 +37,6 @@
 		AD783584205D2D8900B51EAB /* CT_ServerRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD783564205D2D8800B51EAB /* CT_ServerRequest.swift */; };
 		AD783585205D2D8900B51EAB /* CT_RequestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD783565205D2D8800B51EAB /* CT_RequestManager.swift */; };
 		AD783587205D2D8900B51EAB /* CT_Game_Protocols_2.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD783569205D2D8800B51EAB /* CT_Game_Protocols_2.swift */; };
-		AD783588205D2D8900B51EAB /* CT_Game_Protocols_1.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD78356A205D2D8800B51EAB /* CT_Game_Protocols_1.swift */; };
 		AD78358A205D2D8900B51EAB /* CD_CT_Cell+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD78356F205D2D8800B51EAB /* CD_CT_Cell+CoreDataProperties.swift */; };
 		AD78358B205D2D8900B51EAB /* CD_CT_Cell+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD783570205D2D8800B51EAB /* CD_CT_Cell+CoreDataClass.swift */; };
 		AD78358C205D2D8900B51EAB /* CDCrackTotem+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD783572205D2D8800B51EAB /* CDCrackTotem+CoreDataClass.swift */; };
@@ -46,10 +45,7 @@
 		AD78358F205D2D8900B51EAB /* CD_CT_Sticker+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD783576205D2D8800B51EAB /* CD_CT_Sticker+CoreDataProperties.swift */; };
 		AD783590205D2D8900B51EAB /* CD_CT_Row+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD783578205D2D8800B51EAB /* CD_CT_Row+CoreDataClass.swift */; };
 		AD783591205D2D8900B51EAB /* CD_CT_Row+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD783579205D2D8800B51EAB /* CD_CT_Row+CoreDataProperties.swift */; };
-		AD783592205D2D8900B51EAB /* CrackingTotemsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD78357B205D2D8800B51EAB /* CrackingTotemsVC.swift */; };
-		AD783593205D2D8900B51EAB /* CrackTotemVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD78357C205D2D8800B51EAB /* CrackTotemVC.swift */; };
-		AD783594205D2D8900B51EAB /* crackTotem.png in Resources */ = {isa = PBXBuildFile; fileRef = AD783580205D2D8800B51EAB /* crackTotem.png */; };
-		AD783599205D325600B51EAB /* CoreData.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = AD783598205D325600B51EAB /* CoreData.xcdatamodel */; };
+		AD783599205D325600B51EAB /* CoreCrackTotem.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = AD783598205D325600B51EAB /* CoreCrackTotem.xcdatamodel */; };
 		AD78359B205D873F00B51EAB /* allCrests.json in Resources */ = {isa = PBXBuildFile; fileRef = AD78359A205D873F00B51EAB /* allCrests.json */; };
 		AD8823382058100400909E25 /* Stopwatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD8823372058100400909E25 /* Stopwatch.swift */; };
 		AD8E6F36205C30810062A856 /* totemTemp.json in Resources */ = {isa = PBXBuildFile; fileRef = AD8E6F35205C30810062A856 /* totemTemp.json */; };
@@ -61,7 +57,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		AD1C913A20502AC500C5927C /* tryReadJsonFromBundle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tryReadJsonFromBundle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD1C913A20502AC500C5927C /* tryBrickWall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tryBrickWall.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD1C913D20502AC500C5927C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AD1C913F20502AC500C5927C /* ChooseTotemVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseTotemVC.swift; sourceTree = "<group>"; };
 		AD1C914220502AC500C5927C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -93,7 +89,6 @@
 		AD783564205D2D8800B51EAB /* CT_ServerRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CT_ServerRequest.swift; sourceTree = "<group>"; };
 		AD783565205D2D8800B51EAB /* CT_RequestManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CT_RequestManager.swift; sourceTree = "<group>"; };
 		AD783569205D2D8800B51EAB /* CT_Game_Protocols_2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CT_Game_Protocols_2.swift; sourceTree = "<group>"; };
-		AD78356A205D2D8800B51EAB /* CT_Game_Protocols_1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CT_Game_Protocols_1.swift; sourceTree = "<group>"; };
 		AD78356F205D2D8800B51EAB /* CD_CT_Cell+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CD_CT_Cell+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		AD783570205D2D8800B51EAB /* CD_CT_Cell+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CD_CT_Cell+CoreDataClass.swift"; sourceTree = "<group>"; };
 		AD783572205D2D8800B51EAB /* CDCrackTotem+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CDCrackTotem+CoreDataClass.swift"; sourceTree = "<group>"; };
@@ -102,12 +97,8 @@
 		AD783576205D2D8800B51EAB /* CD_CT_Sticker+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CD_CT_Sticker+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		AD783578205D2D8800B51EAB /* CD_CT_Row+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CD_CT_Row+CoreDataClass.swift"; sourceTree = "<group>"; };
 		AD783579205D2D8800B51EAB /* CD_CT_Row+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CD_CT_Row+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		AD78357B205D2D8800B51EAB /* CrackingTotemsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CrackingTotemsVC.swift; sourceTree = "<group>"; };
-		AD78357C205D2D8800B51EAB /* CrackTotemVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CrackTotemVC.swift; sourceTree = "<group>"; };
-		AD783580205D2D8800B51EAB /* crackTotem.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = crackTotem.png; sourceTree = "<group>"; };
-		AD783598205D325600B51EAB /* CoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreData.xcdatamodel; sourceTree = "<group>"; };
+		AD783598205D325600B51EAB /* CoreCrackTotem.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreCrackTotem.xcdatamodel; sourceTree = "<group>"; };
 		AD78359A205D873F00B51EAB /* allCrests.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = allCrests.json; sourceTree = "<group>"; };
-		AD7B6B4120616D2500AF54CA /* Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
 		AD8823372058100400909E25 /* Stopwatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stopwatch.swift; sourceTree = "<group>"; };
 		AD8E6F35205C30810062A856 /* totemTemp.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = totemTemp.json; sourceTree = "<group>"; };
 		AD8F324F205049F9001DFAFA /* Duplicate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Duplicate.swift; sourceTree = "<group>"; };
@@ -131,8 +122,8 @@
 		AD1C913120502AC500C5927C = {
 			isa = PBXGroup;
 			children = (
-				AD1C913C20502AC500C5927C /* tryReadJsonFromBundle */,
 				AD1C913B20502AC500C5927C /* Products */,
+				AD1C913C20502AC500C5927C /* tryBrickWall */,
 				AD78355B205D2D8800B51EAB /* CrackTotemGame */,
 			);
 			sourceTree = "<group>";
@@ -140,16 +131,17 @@
 		AD1C913B20502AC500C5927C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AD1C913A20502AC500C5927C /* tryReadJsonFromBundle.app */,
+				AD1C913A20502AC500C5927C /* tryBrickWall.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		AD1C913C20502AC500C5927C /* tryReadJsonFromBundle */ = {
+		AD1C913C20502AC500C5927C /* tryBrickWall */ = {
 			isa = PBXGroup;
 			children = (
-				AD7B6B4120616D2500AF54CA /* Bridging-Header.h */,
-				AD783598205D325600B51EAB /* CoreData.xcdatamodel */,
+				AD1C914120502AC500C5927C /* Main.storyboard */,
+				AD1C914920502AC500C5927C /* Info.plist */,
+				AD783598205D325600B51EAB /* CoreCrackTotem.xcdatamodel */,
 				AD1FCC3C205A943E00DF5ACC /* CT_Globals */,
 				AD88233620580FF300909E25 /* CT_Timer */,
 				AD8F325820517C15001DFAFA /* CT_Constants */,
@@ -161,13 +153,11 @@
 				AD1C915A20503D3D00C5927C /* CT_Model */,
 				AD1C915920503D2B00C5927C /* BW_Protocols */,
 				AD1C915820503D1E00C5927C /* VCs */,
-				AD1C914120502AC500C5927C /* Main.storyboard */,
-				AD1C914920502AC500C5927C /* Info.plist */,
 				AD1C915120502BD800C5927C /* AppDel i sl */,
 				AD1E114A2069558100EBDB3C /* totemJson */,
 				AD4B08CD2056A912004CA144 /* Localizable.strings */,
 			);
-			path = tryReadJsonFromBundle;
+			path = tryBrickWall;
 			sourceTree = "<group>";
 		};
 		AD1C915120502BD800C5927C /* AppDel i sl */ = {
@@ -278,33 +268,12 @@
 		AD78355B205D2D8800B51EAB /* CrackTotemGame */ = {
 			isa = PBXGroup;
 			children = (
-				AD78355C205D2D8800B51EAB /* CT_views */,
-				AD78355D205D2D8800B51EAB /* CT_globals */,
 				AD78355F205D2D8800B51EAB /* CT_networking+coredata */,
-				AD783561205D2D8800B51EAB /* CT_model */,
 				AD783563205D2D8800B51EAB /* CT_networking */,
-				AD783566205D2D8800B51EAB /* CT_constants */,
 				AD783568205D2D8800B51EAB /* CT_protocols */,
-				AD78356B205D2D8800B51EAB /* CT_cells */,
 				AD78356D205D2D8800B51EAB /* CT_coredata */,
-				AD78357A205D2D8800B51EAB /* CT_VCs */,
-				AD78357D205D2D8800B51EAB /* CT_assets */,
 			);
 			path = CrackTotemGame;
-			sourceTree = "<group>";
-		};
-		AD78355C205D2D8800B51EAB /* CT_views */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = CT_views;
-			sourceTree = "<group>";
-		};
-		AD78355D205D2D8800B51EAB /* CT_globals */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = CT_globals;
 			sourceTree = "<group>";
 		};
 		AD78355F205D2D8800B51EAB /* CT_networking+coredata */ = {
@@ -313,13 +282,6 @@
 				AD783560205D2D8800B51EAB /* CT_NetworkingAndCoreDataManaging.swift */,
 			);
 			path = "CT_networking+coredata";
-			sourceTree = "<group>";
-		};
-		AD783561205D2D8800B51EAB /* CT_model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = CT_model;
 			sourceTree = "<group>";
 		};
 		AD783563205D2D8800B51EAB /* CT_networking */ = {
@@ -331,27 +293,12 @@
 			path = CT_networking;
 			sourceTree = "<group>";
 		};
-		AD783566205D2D8800B51EAB /* CT_constants */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = CT_constants;
-			sourceTree = "<group>";
-		};
 		AD783568205D2D8800B51EAB /* CT_protocols */ = {
 			isa = PBXGroup;
 			children = (
 				AD783569205D2D8800B51EAB /* CT_Game_Protocols_2.swift */,
-				AD78356A205D2D8800B51EAB /* CT_Game_Protocols_1.swift */,
 			);
 			path = CT_protocols;
-			sourceTree = "<group>";
-		};
-		AD78356B205D2D8800B51EAB /* CT_cells */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = CT_cells;
 			sourceTree = "<group>";
 		};
 		AD78356D205D2D8800B51EAB /* CT_coredata */ = {
@@ -401,39 +348,6 @@
 			path = CD_CT_Row;
 			sourceTree = "<group>";
 		};
-		AD78357A205D2D8800B51EAB /* CT_VCs */ = {
-			isa = PBXGroup;
-			children = (
-				AD78357B205D2D8800B51EAB /* CrackingTotemsVC.swift */,
-				AD78357C205D2D8800B51EAB /* CrackTotemVC.swift */,
-			);
-			path = CT_VCs;
-			sourceTree = "<group>";
-		};
-		AD78357D205D2D8800B51EAB /* CT_assets */ = {
-			isa = PBXGroup;
-			children = (
-				AD78357E205D2D8800B51EAB /* png */,
-			);
-			path = CT_assets;
-			sourceTree = "<group>";
-		};
-		AD78357E205D2D8800B51EAB /* png */ = {
-			isa = PBXGroup;
-			children = (
-				AD78357F205D2D8800B51EAB /* gameIcon */,
-			);
-			path = png;
-			sourceTree = "<group>";
-		};
-		AD78357F205D2D8800B51EAB /* gameIcon */ = {
-			isa = PBXGroup;
-			children = (
-				AD783580205D2D8800B51EAB /* crackTotem.png */,
-			);
-			path = gameIcon;
-			sourceTree = "<group>";
-		};
 		AD88233620580FF300909E25 /* CT_Timer */ = {
 			isa = PBXGroup;
 			children = (
@@ -471,9 +385,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		AD1C913920502AC500C5927C /* tryReadJsonFromBundle */ = {
+		AD1C913920502AC500C5927C /* tryBrickWall */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AD1C914C20502AC500C5927C /* Build configuration list for PBXNativeTarget "tryReadJsonFromBundle" */;
+			buildConfigurationList = AD1C914C20502AC500C5927C /* Build configuration list for PBXNativeTarget "tryBrickWall" */;
 			buildPhases = (
 				AD1C913620502AC500C5927C /* Sources */,
 				AD1C913720502AC500C5927C /* Frameworks */,
@@ -483,9 +397,9 @@
 			);
 			dependencies = (
 			);
-			name = tryReadJsonFromBundle;
+			name = tryBrickWall;
 			productName = tryReadJsonFromBundle;
-			productReference = AD1C913A20502AC500C5927C /* tryReadJsonFromBundle.app */;
+			productReference = AD1C913A20502AC500C5927C /* tryBrickWall.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -504,7 +418,7 @@
 					};
 				};
 			};
-			buildConfigurationList = AD1C913520502AC500C5927C /* Build configuration list for PBXProject "tryReadJsonFromBundle" */;
+			buildConfigurationList = AD1C913520502AC500C5927C /* Build configuration list for PBXProject "tryBrickWall" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -517,7 +431,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AD1C913920502AC500C5927C /* tryReadJsonFromBundle */,
+				AD1C913920502AC500C5927C /* tryBrickWall */,
 			);
 		};
 /* End PBXProject section */
@@ -534,7 +448,6 @@
 				AD1C915E20503DE300C5927C /* BW_BrickView.xib in Resources */,
 				AD8F3307205682FE001DFAFA /* BW_Assets_Temp.xcassets in Resources */,
 				AD4B08BF20569B2F004CA144 /* BB_HammerView.xib in Resources */,
-				AD783594205D2D8900B51EAB /* crackTotem.png in Resources */,
 				AD4B08C720569ED3004CA144 /* BB_BricksBarView.xib in Resources */,
 				AD8F3257205151D2001DFAFA /* totemOriginal.json in Resources */,
 				AD78359B205D873F00B51EAB /* allCrests.json in Resources */,
@@ -563,7 +476,6 @@
 				AD1C91622050489300C5927C /* CT_Model_1.swift in Sources */,
 				AD783582205D2D8900B51EAB /* CT_NetworkingAndCoreDataManaging.swift in Sources */,
 				AD78358A205D2D8900B51EAB /* CD_CT_Cell+CoreDataProperties.swift in Sources */,
-				AD783593205D2D8900B51EAB /* CrackTotemVC.swift in Sources */,
 				AD1C914020502AC500C5927C /* ChooseTotemVC.swift in Sources */,
 				AD1FCC3E205A944D00DF5ACC /* CT_Globals.swift in Sources */,
 				AD1FCC45205BF3FD00DF5ACC /* BW_GameOver.swift in Sources */,
@@ -571,17 +483,15 @@
 				AD78358C205D2D8900B51EAB /* CDCrackTotem+CoreDataClass.swift in Sources */,
 				AD4B08C920569EE6004CA144 /* BB_BricksBarView.swift in Sources */,
 				AD78358B205D2D8900B51EAB /* CD_CT_Cell+CoreDataClass.swift in Sources */,
-				AD783588205D2D8900B51EAB /* CT_Game_Protocols_1.swift in Sources */,
 				AD1C91572050379C00C5927C /* CT_Protocols_1.swift in Sources */,
 				AD783585205D2D8900B51EAB /* CT_RequestManager.swift in Sources */,
 				AD783584205D2D8900B51EAB /* CT_ServerRequest.swift in Sources */,
 				AD8823382058100400909E25 /* Stopwatch.swift in Sources */,
 				AD4B08B4205693D6004CA144 /* BB_TNameScoreView.swift in Sources */,
-				AD783592205D2D8900B51EAB /* CrackingTotemsVC.swift in Sources */,
 				AD783587205D2D8900B51EAB /* CT_Game_Protocols_2.swift in Sources */,
 				AD4B08C520569C52004CA144 /* BB_HammerView.swift in Sources */,
 				AD8F3250205049F9001DFAFA /* Duplicate.swift in Sources */,
-				AD783599205D325600B51EAB /* CoreData.xcdatamodel in Sources */,
+				AD783599205D325600B51EAB /* CoreCrackTotem.xcdatamodel in Sources */,
 				AD1C913E20502AC500C5927C /* AppDelegate.swift in Sources */,
 				AD78358E205D2D8900B51EAB /* CD_CT_Sticker+CoreDataClass.swift in Sources */,
 				AD1C916020503E2900C5927C /* BW_BrickView.swift in Sources */,
@@ -718,12 +628,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = S26YPRY864;
-				INFOPLIST_FILE = tryReadJsonFromBundle/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/tryBrickWall/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				NEW_SETTING = "";
-				PRODUCT_BUNDLE_IDENTIFIER = com.dkrtalic.tryReadJsonFromBundle;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dkrtalic.tryBrickWall;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "./tryReadJsonFromBundle/Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -735,12 +644,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = S26YPRY864;
-				INFOPLIST_FILE = tryReadJsonFromBundle/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/tryBrickWall/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				NEW_SETTING = "";
-				PRODUCT_BUNDLE_IDENTIFIER = com.dkrtalic.tryReadJsonFromBundle;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dkrtalic.tryBrickWall;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "./tryReadJsonFromBundle/Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -749,7 +657,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		AD1C913520502AC500C5927C /* Build configuration list for PBXProject "tryReadJsonFromBundle" */ = {
+		AD1C913520502AC500C5927C /* Build configuration list for PBXProject "tryBrickWall" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AD1C914A20502AC500C5927C /* Debug */,
@@ -758,7 +666,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AD1C914C20502AC500C5927C /* Build configuration list for PBXNativeTarget "tryReadJsonFromBundle" */ = {
+		AD1C914C20502AC500C5927C /* Build configuration list for PBXNativeTarget "tryBrickWall" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AD1C914D20502AC500C5927C /* Debug */,

@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "AD1C913920502AC500C5927C"
-               BuildableName = "tryReadJsonFromBundle.app"
-               BlueprintName = "tryReadJsonFromBundle"
-               ReferencedContainer = "container:tryReadJsonFromBundle.xcodeproj">
+               BuildableName = "tryBrickWall.app"
+               BlueprintName = "tryBrickWall"
+               ReferencedContainer = "container:tryBrickWall.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -34,9 +34,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "AD1C913920502AC500C5927C"
-            BuildableName = "tryReadJsonFromBundle.app"
-            BlueprintName = "tryReadJsonFromBundle"
-            ReferencedContainer = "container:tryReadJsonFromBundle.xcodeproj">
+            BuildableName = "tryBrickWall.app"
+            BlueprintName = "tryBrickWall"
+            ReferencedContainer = "container:tryBrickWall.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -58,9 +58,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "AD1C913920502AC500C5927C"
-            BuildableName = "tryReadJsonFromBundle.app"
-            BlueprintName = "tryReadJsonFromBundle"
-            ReferencedContainer = "container:tryReadJsonFromBundle.xcodeproj">
+            BuildableName = "tryBrickWall.app"
+            BlueprintName = "tryBrickWall"
+            ReferencedContainer = "container:tryBrickWall.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -77,9 +77,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "AD1C913920502AC500C5927C"
-            BuildableName = "tryReadJsonFromBundle.app"
-            BlueprintName = "tryReadJsonFromBundle"
-            ReferencedContainer = "container:tryReadJsonFromBundle.xcodeproj">
+            BuildableName = "tryBrickWall.app"
+            BlueprintName = "tryBrickWall"
+            ReferencedContainer = "container:tryBrickWall.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

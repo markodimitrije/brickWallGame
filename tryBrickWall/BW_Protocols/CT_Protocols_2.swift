@@ -279,9 +279,11 @@ extension CrackTotemGameWebReporting where Self: BrickWallVC {
         
         let input = CT_GAME_SECURE_KEY + "\(total_O - total_P)"
         
-        let digest = input.md5
+        //let digest = input.md5
         
-        print("getControlStr.md5: \(String(describing: digest))")
+        let digest = input
+        
+//        print("getControlStr.md5: \(String(describing: digest))")
         
         //return "ecab33a1548b3da2d101b498f039fbb6"
         

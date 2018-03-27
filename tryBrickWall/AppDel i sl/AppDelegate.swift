@@ -17,12 +17,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         
-        // HC!! NE SME OVO !
-        
-        //let now = Date.init(timeIntervalSinceNow: 0)
-        
-        //ud.set(now, forKey: CT_UD_KEY_USER_CLAIMED_HAMMER_AT) // temp treba u start app func
-        
         return true
     }
 
@@ -57,7 +51,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
          application to it. This property is optional since there are legitimate
          error conditions that could cause the creation of the store to fail.
          */
-        let container = NSPersistentContainer(name: "CoreData")
+        let container = NSPersistentContainer(name: "CoreCrackTotem")
         container.loadPersistentStores(completionHandler: { (storeDescription, error) in
             if let error = error as NSError? {
                 // Replace this implementation with code to handle the error appropriately.
