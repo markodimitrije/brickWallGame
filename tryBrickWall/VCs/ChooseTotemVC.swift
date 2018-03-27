@@ -45,10 +45,7 @@ class ChooseTotemVC: UIViewController {
         
         guard let btn = sender as? UIButton else { return }
         
-        print("btn.tag = \(btn.tag)")
-        
-        guard let identifier = segue.identifier,
-            identifier == "segueShowBrickWall",
+        guard let identifier = segue.identifier, identifier == "segueShowBrickWall",
         let dvc = segue.destination as? BrickWallManaging else { return }
         
         dvc.userChoseTotemSid(btn.tag)
@@ -57,20 +54,14 @@ class ChooseTotemVC: UIViewController {
     
     private func loadMyModel_AllCrests() {
         
-//        CT_NetworkingAndCoreDataManager().getAllCrestsFromWeb(successHandler: { (allData) in
-        
         CT_NetworkingAndCoreDataManager().getAllCrestsFromBundle(successHandler: { (allData) in
         
             guard let data = allData else { return }
             
-            //DispatchQueue.main.async(execute: {
-                
-                let crackTotemSyncManager = CT_NetworkingAndCoreDataManager() // napravi na ovom THREAD-U
-                
-                crackTotemSyncManager.saveAllCrestsResponseToCDCrackTotem(data: data)
-                
-            //})
+            let crackTotemSyncManager = CT_NetworkingAndCoreDataManager() // napravi na ovom THREAD-U
             
+            crackTotemSyncManager.saveAllCrestsResponseToCDCrackTotem(data: data)
+        
         })
         
     }

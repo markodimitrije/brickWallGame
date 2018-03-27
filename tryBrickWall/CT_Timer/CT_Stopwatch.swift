@@ -9,7 +9,7 @@
 import Foundation
 import QuartzCore
 
-class TimerManager {
+class BW_TimerManager {
     
     enum CT_CounterEvent {
         case userEnterTheGame
@@ -92,7 +92,7 @@ class TimerManager {
         }
         
         ud.set(val, forKey: CT_UD_KEY_COUNTER_NUM_SAVED)
-        print("saveState.val = \(val)")
+//        print("saveState.val = \(val)")
         
     }
     
@@ -367,7 +367,7 @@ class TimerManager {
 
 
 
-extension TimerManager: HammerViewCounterFormating {
+extension BW_TimerManager: HammerViewCounterFormating {
 
     func getFormatedCounter(forValue value: Int) -> String {
         

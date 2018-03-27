@@ -74,8 +74,6 @@ struct CT_NetworkingAndCoreDataManager: CrackTotemWebDataManaging, CrackTotemInt
     
     func updateCrestToWeb(payload: [String: Any]?, completionHandler: @escaping (_ success: Bool?) -> Void) {
     
-        print("CT_NetworkingAndCoreDataManaging.updateCrestToWeb is CALLED")
-        
         guard let payload = payload else { return }
         
         CT_ServerRequest().updateCrestToWeb(payload: payload) { (success) in

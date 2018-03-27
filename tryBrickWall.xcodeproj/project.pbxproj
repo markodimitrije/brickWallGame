@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		AD1C913E20502AC500C5927C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1C913D20502AC500C5927C /* AppDelegate.swift */; };
 		AD1C914020502AC500C5927C /* ChooseTotemVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1C913F20502AC500C5927C /* ChooseTotemVC.swift */; };
-		AD1C914320502AC500C5927C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD1C914120502AC500C5927C /* Main.storyboard */; };
+		AD1C914320502AC500C5927C /* CT_Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD1C914120502AC500C5927C /* CT_Main.storyboard */; };
 		AD1C914520502AC500C5927C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD1C914420502AC500C5927C /* Assets.xcassets */; };
 		AD1C915020502BCB00C5927C /* totem.json in Resources */ = {isa = PBXBuildFile; fileRef = AD1C914F20502BCB00C5927C /* totem.json */; };
 		AD1C9153205030F100C5927C /* CT_Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1C9152205030F100C5927C /* CT_Model.swift */; };
@@ -47,7 +47,7 @@
 		AD783591205D2D8900B51EAB /* CD_CT_Row+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD783579205D2D8800B51EAB /* CD_CT_Row+CoreDataProperties.swift */; };
 		AD783599205D325600B51EAB /* CoreCrackTotem.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = AD783598205D325600B51EAB /* CoreCrackTotem.xcdatamodel */; };
 		AD78359B205D873F00B51EAB /* allCrests.json in Resources */ = {isa = PBXBuildFile; fileRef = AD78359A205D873F00B51EAB /* allCrests.json */; };
-		AD8823382058100400909E25 /* Stopwatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD8823372058100400909E25 /* Stopwatch.swift */; };
+		AD8823382058100400909E25 /* CT_Stopwatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD8823372058100400909E25 /* CT_Stopwatch.swift */; };
 		AD8E6F36205C30810062A856 /* totemTemp.json in Resources */ = {isa = PBXBuildFile; fileRef = AD8E6F35205C30810062A856 /* totemTemp.json */; };
 		AD8F3250205049F9001DFAFA /* Duplicate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD8F324F205049F9001DFAFA /* Duplicate.swift */; };
 		AD8F325320504D40001DFAFA /* BW_Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD8F325220504D40001DFAFA /* BW_Assets.xcassets */; };
@@ -60,7 +60,7 @@
 		AD1C913A20502AC500C5927C /* tryBrickWall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tryBrickWall.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD1C913D20502AC500C5927C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AD1C913F20502AC500C5927C /* ChooseTotemVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseTotemVC.swift; sourceTree = "<group>"; };
-		AD1C914220502AC500C5927C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AD1C914220502AC500C5927C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/CT_Main.storyboard; sourceTree = "<group>"; };
 		AD1C914420502AC500C5927C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AD1C914920502AC500C5927C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AD1C914F20502BCB00C5927C /* totem.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = totem.json; sourceTree = "<group>"; };
@@ -99,7 +99,7 @@
 		AD783579205D2D8800B51EAB /* CD_CT_Row+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CD_CT_Row+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		AD783598205D325600B51EAB /* CoreCrackTotem.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreCrackTotem.xcdatamodel; sourceTree = "<group>"; };
 		AD78359A205D873F00B51EAB /* allCrests.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = allCrests.json; sourceTree = "<group>"; };
-		AD8823372058100400909E25 /* Stopwatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stopwatch.swift; sourceTree = "<group>"; };
+		AD8823372058100400909E25 /* CT_Stopwatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CT_Stopwatch.swift; sourceTree = "<group>"; };
 		AD8E6F35205C30810062A856 /* totemTemp.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = totemTemp.json; sourceTree = "<group>"; };
 		AD8F324F205049F9001DFAFA /* Duplicate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Duplicate.swift; sourceTree = "<group>"; };
 		AD8F325220504D40001DFAFA /* BW_Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = BW_Assets.xcassets; sourceTree = "<group>"; };
@@ -139,7 +139,7 @@
 		AD1C913C20502AC500C5927C /* tryBrickWall */ = {
 			isa = PBXGroup;
 			children = (
-				AD1C914120502AC500C5927C /* Main.storyboard */,
+				AD1C914120502AC500C5927C /* CT_Main.storyboard */,
 				AD1C914920502AC500C5927C /* Info.plist */,
 				AD783598205D325600B51EAB /* CoreCrackTotem.xcdatamodel */,
 				AD1FCC3C205A943E00DF5ACC /* CT_Globals */,
@@ -351,7 +351,7 @@
 		AD88233620580FF300909E25 /* CT_Timer */ = {
 			isa = PBXGroup;
 			children = (
-				AD8823372058100400909E25 /* Stopwatch.swift */,
+				AD8823372058100400909E25 /* CT_Stopwatch.swift */,
 			);
 			path = CT_Timer;
 			sourceTree = "<group>";
@@ -453,7 +453,7 @@
 				AD78359B205D873F00B51EAB /* allCrests.json in Resources */,
 				AD8E6F36205C30810062A856 /* totemTemp.json in Resources */,
 				AD1C914520502AC500C5927C /* Assets.xcassets in Resources */,
-				AD1C914320502AC500C5927C /* Main.storyboard in Resources */,
+				AD1C914320502AC500C5927C /* CT_Main.storyboard in Resources */,
 				AD1C915020502BCB00C5927C /* totem.json in Resources */,
 				AD4B08CE2056A912004CA144 /* Localizable.strings in Resources */,
 				AD4B08B720569610004CA144 /* BB_BuyTotemView.xib in Resources */,
@@ -486,7 +486,7 @@
 				AD1C91572050379C00C5927C /* CT_Protocols_1.swift in Sources */,
 				AD783585205D2D8900B51EAB /* CT_RequestManager.swift in Sources */,
 				AD783584205D2D8900B51EAB /* CT_ServerRequest.swift in Sources */,
-				AD8823382058100400909E25 /* Stopwatch.swift in Sources */,
+				AD8823382058100400909E25 /* CT_Stopwatch.swift in Sources */,
 				AD4B08B4205693D6004CA144 /* BB_TNameScoreView.swift in Sources */,
 				AD783587205D2D8900B51EAB /* CT_Game_Protocols_2.swift in Sources */,
 				AD4B08C520569C52004CA144 /* BB_HammerView.swift in Sources */,
@@ -504,12 +504,12 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		AD1C914120502AC500C5927C /* Main.storyboard */ = {
+		AD1C914120502AC500C5927C /* CT_Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				AD1C914220502AC500C5927C /* Base */,
 			);
-			name = Main.storyboard;
+			name = CT_Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

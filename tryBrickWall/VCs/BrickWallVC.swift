@@ -19,7 +19,7 @@ class BrickWallVC: UIViewController {
     }
     
     var timer: Timer?
-    let tm = TimerManager()
+    let tm = BW_TimerManager()
     
     @IBOutlet weak var bwBarView: BB_BricksBarView!
     

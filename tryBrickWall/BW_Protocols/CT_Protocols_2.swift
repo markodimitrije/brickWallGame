@@ -322,15 +322,14 @@ extension CrackTotemGameWebReporting where Self: BrickWallVC {
     }
     
     func gameIsBecomingInactive() {
-        print("CrackTotemGameWebReporting.BrickWallVC/gameIsBecomingInactive is CALLED")
         
         guard let payload = getPayloadFor(sid: totem?.sid) else { return }
         
         CT_NetworkingAndCoreDataManager().updateCrestToWeb(payload: payload) { (success) in
             if let success = success, success {
-                print("gameIsBecomingInactive.successfully reported to web")
+                print("updateCrestToWeb.gameIsBecomingInactive.successfully reported to web")
             } else {
-                print("gameIsBecomingInactive.nije uspeo da update-uje....")
+                print("updateCrestToWeb.gameIsBecomingInactive.nije uspeo da update-uje....")
             }
         }
         
